@@ -1,4 +1,6 @@
 .DS_Store
+si
+index
 *.swp
 node_modules
 origin.js

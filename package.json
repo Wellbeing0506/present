@@ -14,7 +14,9 @@
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "search-index": "^0.8.12"
+  },
   "description": "dave's presentation management system",
   "main": "app.js",
   "repository": {
