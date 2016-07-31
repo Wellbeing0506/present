@@ -1,0 +1,26 @@
+doctype html
+html
+ head
+  meta(charset="utf-8")
+  meta(http-equiv="x-ua-compatible", content="ie=dege")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  title= title
+  link(rel='stylesheet', href='/stylesheets/foundation.min.css')
+  link(rel='stylesheet', href='/stylesheets/footer.css')
+  script(src="/javascripts/jquery.js")
+  script(src="/javascripts/what-input.js")
+  script(src="/javascripts/foundation.min.js")
+ body
+  div(class="top-bar")  
+   div(class="top-bar-left")
+    ul(class="dropdown menu" data-dropdown-menu)
+     li(class="menu-text") Dave Slides
+   div(class="top-bar-right")
+    ul(class="menu")
+     li
+      input(type="search", placeholder="Search")
+     li
+      button(type="button", class="button") Search
+  block content
+  include footer
+

@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	div(class="row collapse")
+		div(class="large-3 columns")
+			ul(class="tabs vertical", id="example-vert-tabs", data-tabs)
+				li(class="tabs-title is-active")
+					a(href="#tab1", aria-selected="true") Weekly Meeting
+				li(class="tabs-title")
+					a(href="#tab2") Beacon Meeting
+				li(class="tabs-title")
+					a(href="#tab3") Others
+		div(class="large-9 columns")
+			div(class="tabs-content vertical", data-tabs-content="example-vert-tabs")
+				div(class="tabs-panel is-active", id="tab1")
+					include tab1
+				div(class="tabs-panel", id="tab2")
+					include tab2
+				div(class="tabs-panel", id="tab3")
+					include tab3
+	script(src="/javascripts/app.js")

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+/*  margin-bottom: -142px; */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+/*  height: 142px; */
+	height:150px;
+}
+.site-footer {
+	width:100%;
+  background: #2c3840;
+  color:white;
+	text-indent: 10%;
+	line-height:90%;
+  text-align:center;
+	font-size:0.9em;
+	position:absolute;
+	bottom:0
+}
